@@ -1,0 +1,87 @@
+#titulo {
+    color: slategrey;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1px;
+}
+
+header {
+    background-color: #04a9ab;
+    width: 100%;
+    padding: 0px;
+    font-size: 40px;
+    position: fixed;
+}
+
+.menu {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.menu nav a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 35px;
+    position: relative;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 5px;
+    background-color: #f8db26;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after {
+    width: 55px;
+}
+
+span {
+    margin-top: 10px;
+    width: 40%;
+    justify-content: center;
+    position: fixed;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+p {
+    margin-left: 30px;
+    font-size: 20px;
+    margin-right: 30px;
+    height: 150px;
+}
+
+h1 {
+    margin: 70px;
+}
+
+#titulo2 {
+    color: slategrey;
+    text-align: center;
+    margin-top: -50px;
+}
